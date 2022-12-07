@@ -32,7 +32,16 @@ const Branding = () => {
             </Button>
         </Stack>
         <Box
-            sx={{ width: "50%" }}
+            sx={
+                {
+                    width: "50%",
+                    display: {
+                        xs: 'none',
+                        sm: 'none',
+                        md: 'block'
+                    }
+                }
+            }
         >
             <img src="https://i.ibb.co/sPXVMbC/Frame.png" alt="" style={{ width: '100%' }} />
         </Box>
